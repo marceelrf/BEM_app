@@ -12,7 +12,8 @@ library(shiny)
 # Define UI for application that draws a histogram
 ui <- fluidPage(
 
-    fluidRow(
+  #
+  fluidRow(
       includeHTML("spotify_tracks/spotify_embed.html")
     )
 )
